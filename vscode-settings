@@ -1,0 +1,106 @@
+{
+  "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.detectIndentation": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    // "editor.formatOnSave": false,
+    "editor.formatOnSave": false, // New because of Carvago
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.userWords": ["Formik", "localstorage", "ulozenka"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "colorize.languages": ["json", "typescript", "typescriptreact", "javascript", "css", "scss"],
+  "eslint.alwaysShowStatus": true,
+  "prettier.disableLanguages": ["js"],
+  "terminal.integrated.rendererType": "dom",
+  "git.confirmSync": false,
+  "ActiveFileInStatusBar.color": "white",
+  "ActiveFileInStatusBar.fullpath": false,
+  "explorer.decorations.colors": true,
+  "workbench.colorCustomizations": {
+    // "list.activeSelectionForeground": "#fff",
+    // "list.activeSelectionBackground": "#0043b8",
+    // "list.inactiveSelectionForeground": "#fff",
+    // "list.inactiveSelectionBackground": "#0044b863",
+    "editor.findMatchHighlightBackground": "#8f1616",
+    "editor.findMatchBorder": "#f00",
+    "editor.findMatchHighlightBorder": "#ccc",
+    "editor.findMatchBackground": "#8607c6",
+
+    "editor.lineHighlightBackground": "#ffffff00",
+    "editor.lineHighlightBorder": "#ffffff00",
+    "editor.selectionBackground": "#aa00ff8a",
+    "editor.selectionHighlightBackground": "#ffffff00",
+    "editor.selectionHighlightBorder": "#ffffff44",
+    "editor.wordHighlightBackground": "#ffffff00",
+    "editor.wordHighlightBorder": "#ffffff44",
+    "editorCursor.foreground": "#00ff00",
+    "statusBar.debuggingBackground": "#410d18",
+    "statusBar.debuggingForeground": "#dddddd",
+    "editorBracketMatch.background": "#ffffff00",
+    "editorBracketMatch.border": "#ffffff00",
+    "editor.symbolHighlightBackground": "#ffffff00",
+    "editor.wordHighlightStrongBackground": "#ffffff00"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.endOfLine": "lf",
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 100,
+  "editor.wordWrapColumn": 100,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "todo-tree.tree.showScanModeButton": false,
+  "files.eol": "\n",
+  "remote.SSH.remotePlatform": {
+    "vse.handson.pro": "linux"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "git.ignoreWindowsGit27Warning": true,
+  "terminal.explorerKind": "external",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe (migrated)": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": []
+    }
+  },
+  "markdown.marp.enableHtml": true,
+  "editor.formatOnSave": true,
+  "json.schemas": [],
+  "workbench.colorTheme": "Dobri Next -A04- Cobalt",
+  "kotlin.languageServer.enabled": false,
+  "kotlin.debugAdapter.enabled": false,
+  "markdown.extension.tableFormatter.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "window.zoomLevel": -1,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "eslint.workingDirectories": []
+}
