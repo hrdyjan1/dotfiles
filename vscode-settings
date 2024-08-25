@@ -10,14 +10,14 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    // "editor.formatOnSave": false,
-    "editor.formatOnSave": false, // New because of Carvago
+    "editor.formatOnSave": false,
+    // "editor.formatOnSave": true, // New because of Carvago
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "cSpell.userWords": ["Formik", "localstorage", "ulozenka"],
+  "cSpell.userWords": ["Formik", "localstorage", "SWAPPABLE", "Swappeble", "ulozenka"],
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   "colorize.languages": ["json", "typescript", "typescriptreact", "javascript", "css", "scss"],
   "eslint.alwaysShowStatus": true,
@@ -77,7 +77,6 @@
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "todo-tree.tree.showScanModeButton": false,
-  "files.eol": "\n",
   "remote.SSH.remotePlatform": {
     "vse.handson.pro": "linux"
   },
@@ -98,9 +97,14 @@
   "kotlin.languageServer.enabled": false,
   "kotlin.debugAdapter.enabled": false,
   "markdown.extension.tableFormatter.enabled": false,
-  "diffEditor.ignoreTrimWhitespace": false,
   "gitlens.views.commitDetails.files.layout": "tree",
-  "window.zoomLevel": -1,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "eslint.workingDirectories": []
+  "eslint.workingDirectories": [],
+  "nxConsole.showNodeVersionOnStartup": false,
+  "files.eol": "\n",
+  "editor.fontLigatures": true,
+  "stylelint.validate": ["css", "less", "postcss", "typescript", "typescriptreact"],
+  "window.zoomLevel": -1,
+  "testing.openTesting": "neverOpen",
+  "workbench.colorTheme": "Dobri Next -A04- Cobalt"
 }
