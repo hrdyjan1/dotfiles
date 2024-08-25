@@ -105,6 +105,5 @@
   "editor.fontLigatures": true,
   "stylelint.validate": ["css", "less", "postcss", "typescript", "typescriptreact"],
   "window.zoomLevel": -1,
-  "testing.openTesting": "neverOpen",
-  "workbench.colorTheme": "Dobri Next -A04- Cobalt"
+  "testing.openTesting": "neverOpen"
 }
